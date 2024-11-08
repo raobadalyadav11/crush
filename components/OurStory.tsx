@@ -160,9 +160,7 @@ export default function OurStory() {
                     <Image
                       src={event.image}
                       alt={event.title}
-                      // layout="fill"
                       fill style={{ objectFit: "cover" }}
-                      // objectFit="cover"
                       className="rounded-lg"
                     />
                     <motion.div

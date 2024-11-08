@@ -89,12 +89,13 @@ export default function AboutUs() {
         transition={{ duration: 0.8 }}
         className="text-center mb-16 relative"
       >
-        <h2 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 mb-4">
-          Our Love Story
-        </h2>
-        <p className="text-xl text-gray-600 dark:text-gray-300">
-          The little things that make us unique and perfect together
-        </p>
+       <h2 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 mb-4 dark:text-transparent dark:bg-gradient-to-r dark:from-pink-700 dark:to-purple-700">
+  Our Love Story
+</h2>
+<p className="text-xl text-gray-600 dark:text-gray-300">
+  The little things that make us unique and perfect together
+</p>
+
         <motion.div
           className="absolute -top-10 -left-10 text-pink-400"
           animate={{

@@ -127,7 +127,6 @@ export default function MemoryGallery() {
                   <Image
                     src={memory.image}
                     alt={memory.caption}
-                    // objectFit="cover"
                     fill style={{ objectFit: "cover" }}
                     className="transition-transform duration-300 group-hover:scale-110"
                   />
